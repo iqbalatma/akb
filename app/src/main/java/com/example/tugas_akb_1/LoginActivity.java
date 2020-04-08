@@ -27,10 +27,10 @@ public class LoginActivity extends AppCompatActivity {
         Intent i = new Intent(LoginActivity.this, BiodataActivity.class);
         startActivity(i);
     }
-    public void pindahsayhaiactivity(View v){
-
-        Intent i = new Intent(LoginActivity.this, Hai.class);
-        startActivity(i);
-    }
+//    public void pindahsayhaiactivity(View v){
+//
+//        Intent i = new Intent(LoginActivity.this, Hai.class);
+//        startActivity(i);
+//    }
 
 }
