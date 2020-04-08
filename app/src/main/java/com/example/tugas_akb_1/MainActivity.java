@@ -15,8 +15,6 @@ Nama    : Iqbal Atma Muliawan
 Kelas   : IF4
 Matkul  : Aplikasi Komputasi Bergerak
 Tugas   : AKB-Tugas-1
-
-
  */
 //    4 April 2020, 14.25 WIB : Selesai membuat halaman welcome
 //    4 April 2020, 17.33 WIB : Selesai Membuat halaman login dan memberi event onClick pada button "mulai"
