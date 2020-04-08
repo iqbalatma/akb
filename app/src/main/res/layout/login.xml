@@ -34,6 +34,7 @@
         app:layout_constraintVertical_bias="0.099" />
 
     <Button
+        android:onClick="pindahsayhaiactivity"
         android:id="@+id/button_masuk"
         android:layout_width="318dp"
         android:layout_height="38dp"
@@ -53,47 +54,34 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.476" />
 
-    <Button
-        android:id="@+id/button_kode"
-        android:layout_width="322dp"
-        android:layout_height="60dp"
-        android:background="@drawable/custom_button_putih"
-        android:text="A1B2C3"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.483"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.277" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="56dp"
         android:text="Dengan menekan tombol masuk berarti anda menyetujui"
         android:textSize="11dp"
         app:layout_constraintBottom_toTopOf="@+id/button_masuk"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_kode"
-        app:layout_constraintVertical_bias="0.318" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="89dp"
         android:layout_marginTop="6dp"
-        android:layout_marginEnd="95dp"
-        android:layout_marginBottom="26dp"
         android:text="Ketentuan Pengguna dan Kebijakan Data Kami"
         android:textSize="11dp"
-        app:layout_constraintBottom_toTopOf="@+id/button_masuk"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3"
-        />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.395" />
 
     <TextView
         android:id="@+id/textView10"
@@ -122,6 +110,7 @@
         app:layout_constraintTop_toBottomOf="@+id/button_masuk" />
 
     <Button
+        android:onClick="pindahbiodataactivity"
         android:id="@+id/col"
         android:layout_width="289dp"
         android:layout_height="42dp"
@@ -138,5 +127,35 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+<!--    <EditText-->
+<!--&lt;!&ndash;        android:id="@+id/editText2"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:ems="10"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:inputType="textPersonName"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:text="Name"&ndash;&gt;-->
+<!--&lt;!&ndash;        tools:layout_editor_absoluteX="96dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        tools:layout_editor_absoluteY="201dp"-->
+<!-- &ndash;&gt;-->
+<!--   >-->
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="332dp"
+        android:layout_height="54dp"
+        android:background="@drawable/custom_button_putih"
+        android:backgroundTint="#00FFFFFF"
+        android:backgroundTintMode="src_atop"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Masukkan kode keluarga"
+        android:inputType="textCapCharacters"
+        android:textAllCaps="true"
+        app:layout_constraintBottom_toTopOf="@+id/button_masuk"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.677" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
